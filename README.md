@@ -1,39 +1,34 @@
-# Python Insights - Analisando Cancelamento de Clientes
+# Projeto de Análise de Dados – Cancelamento de Clientes
 
-Projeto de análise de dados focado em entender motivos de cancelamento de clientes.
+Este repositório reúne um **projeto acadêmico de análise de dados**. O objetivo foi entender os principais motivos pelos quais clientes cancelam um serviço e transformar dados brutos em insights visuais e conclusivos.
 
-Conteúdo do repositório
-- [inicial.ipynb](inicial.ipynb) — notebook principal com análise e visualizações.
+---
 
-Pré-requisitos
-- Python 3.8+
+## 🗂️ Conteúdo do repositório
 
-Instalação (local)
-1. Criar um ambiente virtual:
+- `inicial.ipynb` — notebook principal com toda a análise exploratória e visualizações.
+- `cancelamentos.csv` — conjunto de dados usado no projeto.
+- `requirements.txt` — lista de dependências para reprodução.
 
-   `python -m venv .venv`
+---
 
-2. Ativar o ambiente (Windows):
+## 🧩 O que foi desenvolvido
 
-   `.venv\Scripts\activate`
+- **Carga e limpeza de dados**: leitura de CSV, tratamento de valores ausentes e normalização.
+- **Análise exploratória**: estatísticas descritivas, identificação de padrões e potenciais outliers.
+- **Visualização**: gráficos com `matplotlib` e `seaborn` para ilustrar relações e tendências.
+- **Interpretação de resultados**: conclusões sobre fatores que mais impactam o cancelamento.
 
-3. Instalar dependências:
+---
 
-   `pip install -r requirements.txt`
+## 📚 Aprendizados adquiridos
 
-Executar
-- Abrir o notebook `inicial.ipynb` (opções):
+- Uso avançado de **pandas** e **NumPy** para manipulação de dados.
+- Construção de **notebooks interativos** bem estruturados e narrativos.
+- Implementação de boas práticas: ambiente virtual, documentação clara e gestão de dependências.
+- Capacidade de diagnosticar e tratar problemas de qualidade nos dados.
 
-   - Via Jupyter: inicie o servidor e abra o notebook:
+---
 
-      `jupyter notebook`
-
-   - Via VS Code: abra a pasta do projeto no VS Code e clique em `inicial.ipynb` (VS Code abre notebooks sem precisar iniciar Jupyter).
-
-   - Converter para script: se preferir rodar como script Python:
-
-      `jupyter nbconvert --to script inicial.ipynb`
-      `python inicial.py`
-
-- Observação: verifique se `cancelamentos.csv` é grande antes de versioná-lo no GitHub; considere usar um storage externo se for pesado.
+Este projeto demonstra competências essenciais em ciência de dados, como análise, visualização e comunicação de resultados.
 
