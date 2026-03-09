@@ -20,6 +20,10 @@ dist/
 build/
 *.egg-info/
 
+# Ignorar material de apoio e gabaritos locais
+gabarito.ipynb
+Apostila Jornada Python - Aula 2.pdf
+
 # Logs
 *.log
 
